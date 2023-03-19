@@ -1,4 +1,4 @@
-package com.bridgelabz;
+package com.bridgelabz.StockAccountManagement;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class StockAccountManagement {
         System.out.println("Enter the Number of Stocks : ");
         int numberOfStocks = scanner.nextInt();
 
-        com.bridgelabz.StockPortfolio stockPortfolio = new StockPortfolio();
+       StockPortfolio stockPortfolio = new StockPortfolio();
         for (int i = 0; i<numberOfStocks; i++){
             System.out.println("Enter the Details of Stocks " + (1+i) + " :");
             System.out.println("Enter the Share Name : ");

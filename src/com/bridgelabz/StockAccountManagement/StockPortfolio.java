@@ -1,4 +1,4 @@
-package com.bridgelabz;
+package com.bridgelabz.StockAccountManagement;
 
 import java.util.ArrayList;
 import java.util.List;
