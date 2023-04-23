@@ -57,7 +57,7 @@ public class DeckOfCards {
          */
         int deckindex = 0;
         for (int i = 0; i < playCards.length; i++) {
-            System.out.println("Player" + (i + 1));
+            System.out.println("*** PLAYER-" + (i + 1)+" ***");
             for (int j = 0; j < playCards[i].length; j++) {
                 playCards[i][j] = deck[deckindex];
                 System.out.println(playCards[i][j]);
