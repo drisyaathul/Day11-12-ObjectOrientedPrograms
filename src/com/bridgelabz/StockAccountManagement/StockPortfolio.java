@@ -1,17 +1,17 @@
 package com.bridgelabz.StockAccountManagement;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class StockPortfolio {
-
-    private List<Stock>StockDetails;
+    //List of Stocks
     ArrayList<Stock> stockDetails = new ArrayList<>();
 
     public void addStock(Stock stock) {
+        //Adding stocks
         stockDetails.add(stock);
     }
     public double getTotalValue() {
+        //Total value of stocks
         double totalValue = 0;
         for (Stock stock : stockDetails) {
             totalValue += stock.getValue();
@@ -22,7 +22,7 @@ public class StockPortfolio {
         for (Stock stock : stockDetails) {
             System.out.println(stock.toString());
         }
-        System.out.println("Total Stock value: $" + getTotalValue());
+        System.out.println("Total Stock value: " + getTotalValue()+ " $");
         }
     }
 
